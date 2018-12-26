@@ -11,7 +11,7 @@ function draw() {
     socket.on('mouse', data => {
         rectMode(CENTER);
         fill(data.randomColor, data.randomColor, data.randomColor)
-        rect(data.x, data.y, 40, 40);
+        ellipse(data.x, data.y, 40, 40);
     })
 }
 function mouseDragged() {
