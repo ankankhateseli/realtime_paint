@@ -4,7 +4,7 @@ function setup() {
     noStroke()
     createCanvas(400, 400);
     background('grey');
-    socket = io.connect('http://localhost:3000/')
+    socket = io.connect('https://arkhsketchio.herokuapp.com/')
 
 }
 function draw() {
