@@ -15,7 +15,7 @@ function draw() {
     });
 }
 function mouseDragged() {
-    fill('grey');
+    fill('black');
     ellipse(mouseX, mouseY, 50, 50);
     socket.emit('mouse', {
         x: mouseX,
