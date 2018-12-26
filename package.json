@@ -1,0 +1,15 @@
+{
+  "name": "drawing",
+  "version": "1.0.0",
+  "description": "Creating server with Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aram",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  }
+}
