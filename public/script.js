@@ -8,9 +8,10 @@ function setup() {
 
 }
 function draw() {
+    randomColor = floor(random(255));
     socket.on('mouse', data => {
         rectMode(CENTER);
-        fill(data.randomColor, data.randomColor, data.randomColor)
+        fill('#f6a6df;');
         ellipse(data.x, data.y, 40, 40);
     })
 }
