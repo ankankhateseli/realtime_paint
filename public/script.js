@@ -5,7 +5,7 @@ function setup() {
   noStroke();
   createCanvas(window.innerWidth, window.innerHeight);
   background("grey");
-  socket = io.connect("https://arkhsketchio.herokuapp.com/");
+  socket = io.connect("https://ankankhateseli-realtimepaint.up.railway.app");
 }
 function draw() {
   socket.on("mouse", (data) => {
