@@ -3,7 +3,7 @@ let color;
 function setup() {
   color = "#f6a6df";
   noStroke();
-  createCanvas(1000, 1000);
+  createCanvas(window.innerWidth, window.innerHeight);
   background("grey");
   socket = io.connect("https://arkhsketchio.herokuapp.com/");
 }
